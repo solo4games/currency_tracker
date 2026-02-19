@@ -13,9 +13,13 @@ cd currency_tracker
 Создать файл .env в корне проекта:
 
 DB_HOST=db
+
 DB_PORT=5432
+
 DB_USER=postgres
+
 DB_PASS=postgres
+
 DB_NAME=test_task
 
 3. Запустить проект
