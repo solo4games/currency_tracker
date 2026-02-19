@@ -1,0 +1,27 @@
+services:
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASS}
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  currency_backend:
+    build: .
+    container_name: currency_backend
+    env_file:
+      - .env
+    restart: unless-stopped
+    depends_on:
+      - db
+    ports:
+      - "8000:8000"
+
+
+volumes:
+  db_data:

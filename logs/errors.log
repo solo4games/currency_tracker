@@ -1,0 +1,96 @@
+2026-02-19 11:58:00 | ERROR    | controllers.scheduler_controller:56 | API вернул ошибку: API вернул статус 404: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+Traceback (most recent call last):
+  File "D:\ptn\ptnworks\Currency_tracker\controllers\scheduler_controller.py", line 42, in _scheduled_task
+    rate = self._currency_service.fetch_and_save_rates("EUR")
+  File "D:\ptn\ptnworks\Currency_tracker\services\currency_service.py", line 51, in fetch_and_save_rates
+    exchange_response = self._gateway.fetch_rates(base_currency="USD")
+  File "D:\ptn\ptnworks\Currency_tracker\gateways\impl.py", line 32, in fetch_rates
+    raise ApiErrorResponseError(
+    ...<2 lines>...
+    )
+domain.exceptions.ApiErrorResponseError: API вернул статус 404: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2026-02-19 11:58:58 | ERROR    | controllers.scheduler_controller:56 | API вернул ошибку: API вернул статус 404: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+Traceback (most recent call last):
+  File "D:\ptn\ptnworks\Currency_tracker\controllers\scheduler_controller.py", line 42, in _scheduled_task
+    rate = self._currency_service.fetch_and_save_rates("EUR")
+  File "D:\ptn\ptnworks\Currency_tracker\services\currency_service.py", line 51, in fetch_and_save_rates
+    exchange_response = self._gateway.fetch_rates(base_currency="USD")
+  File "D:\ptn\ptnworks\Currency_tracker\gateways\impl.py", line 32, in fetch_rates
+    raise ApiErrorResponseError(
+    ...<2 lines>...
+    )
+domain.exceptions.ApiErrorResponseError: API вернул статус 404: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2026-02-19 11:59:08 | ERROR    | controllers.scheduler_controller:56 | API вернул ошибку: API вернул статус 404: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+Traceback (most recent call last):
+  File "D:\ptn\ptnworks\Currency_tracker\controllers\scheduler_controller.py", line 42, in _scheduled_task
+    rate = self._currency_service.fetch_and_save_rates("EUR")
+  File "D:\ptn\ptnworks\Currency_tracker\services\currency_service.py", line 51, in fetch_and_save_rates
+    exchange_response = self._gateway.fetch_rates(base_currency="USD")
+  File "D:\ptn\ptnworks\Currency_tracker\gateways\impl.py", line 32, in fetch_rates
+    raise ApiErrorResponseError(
+    ...<2 lines>...
+    )
+domain.exceptions.ApiErrorResponseError: API вернул статус 404: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2026-02-19 11:59:56 | ERROR    | controllers.scheduler_controller:56 | API вернул ошибку: API вернул статус 404: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+Traceback (most recent call last):
+  File "D:\ptn\ptnworks\Currency_tracker\controllers\scheduler_controller.py", line 42, in _scheduled_task
+    rate = self._currency_service.fetch_and_save_rates("EUR")
+  File "D:\ptn\ptnworks\Currency_tracker\services\currency_service.py", line 51, in fetch_and_save_rates
+    exchange_response = self._gateway.fetch_rates(base_currency="USD")
+  File "D:\ptn\ptnworks\Currency_tracker\gateways\impl.py", line 32, in fetch_rates
+    raise ApiErrorResponseError(
+    ...<2 lines>...
+    )
+domain.exceptions.ApiErrorResponseError: API вернул статус 404: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
